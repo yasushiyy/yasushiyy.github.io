@@ -1,0 +1,1 @@
+javascript:(function(){p=document.body.innerHTML;p=p.replace(/<h3 class="km"><a name=/g,'<h3 class="km" style="font-size:1.8em;color:white;background-color:red;"><a name=');p=p.replace(/<pre/g,'<pre style="color:blue;"');p=p.replace(/>NOTE:/g,' style="color:green">NOTE:');document.body.innerHTML=p})();
